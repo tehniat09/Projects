@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+#absolute{
+  position: absolute;
+  z-index: -1;
+}
+#absolute img{
+  width: 100%;
+}
+#headr {
+  padding-top: 10%;
+  padding-left: 10%;
+}
+#absolute-1 img{
+  width: 100%;
+}
+#absolute-1{
+  position: absolute;
+  z-index: -1;
+}
+#headr-1{
+  padding-top: 10%;
+  text-align: center;
+  padding-right: 10%;
+}
+#all{
+  text-decoration: underline;
+}
+#arrivals{
+  padding-top: 8%;
+}
+#row-1 img{
+  width: 100%;
+}
+#row-1 img:hover{
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+}
+#test{
+  padding-top: 13%;
+}
+#image-6-1 img{
+  position: absolute;
+  z-index: -1;
+  width: 49%;
+}
+#image-6 img{
+  position: absolute;
+  z-index: -1;
+  width: 49%;
+}
+#section-4{
+  margin-top: 15%;
+}
+.must {
+  padding-top: 42%;
+}
+#shop{
+  margin-left: 42%;
+}
+.icons {
+  margin-top: 13%;
+  margin-bottom: 2%;
+}
+@media  (max-width:768px) {
+  #absolute img{
+    height: 420px;
+  }
+  #mila{
+    padding-left: 0%;
+  }
+  #absolute-1 img{
+    height: 420px;
+  }
+}
+@media (max-width:425px) {
+ #section-3{
+  height: 150px;
+  width: 100%;
+ }
+ #image-6 img{
+  height: 260px;
+ }
+ #image-6-1 img{
+  height: 260px;
+ }
+}

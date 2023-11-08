@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"> -->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="BANDD.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid my-3">
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav fs-5 ps-4">
+        <li class="nav-items" id="hover-1">
+          <a class="nav-link text-white px-3" href="#">Home</a>
+        </li>
+        <li class="nav-items" id="hover-1">
+          <a class="nav-link text-white px-3" href="#">Band</a>
+        </li>
+        <li class="nav-items" id="hover-1">
+          <a class="nav-link text-white px-3" href="#">Tour</a>
+        </li>
+        <li class="nav-items" id="hover-1">
+          <a class="nav-link text-white px-3" href="#">Contact</a>
+        </li>
+       <div class="dropdown" id="hover-1">
+        <button class="btn btn-dark dropdown-toggle fs-5 px-3"  data-bs-toggle="dropdown">More 
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Mercendise</a> </li>
+            <li><a class="dropdown-item" href="#">Extras</a> </li>
+            <li><a class="dropdown-item" href="#">Media</a> </li>
+          </ul>
+       </div>
+    </div>
+  </div>
+  </nav>
+
+<div id="demo" class="carousel slide " data-bs-ride="carousel">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/la.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/chicago.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="images/ny.jpg" alt="New York" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>  
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+  <div class="section-1">
+    <div id="parat" class="container text-center">
+      <h2 id="band">THE BAND</h2>
+      <span id="span-1" class="text-secondary fs-5">We love music</span>
+      <p id="paragraph-1" class="pt-4" >We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="display" class="row mt-5 pt-5">
+      <div class="col-4">
+        <h4 id="name-1">Name</h4>
+        <img src="images/bandmember.jpg" alt="">
+      </div>
+      <div class="col-4">
+        <h4 id="name-1">Name</h4>
+        <img src="images/bandmember.jpg" alt="">
+      </div>
+      <div class="col-4">
+        <h4 id="name-1">Name</h4>
+        <img src="images/bandmember.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div id="black-1" class="container-fluid bg-black">
+    <div id="text-1" class="container text-white text-center">
+      <h2 id="Tour" class="fs-1">TOUR DATES</h2>
+      <span id="span-2">Remember to book your tickets!</span>
+    </div>
+    
+    <div class="container bg-black mt-5">
+   <div class="container bg-white" id="white-2">
+    <ul id="list" class="bg-white pt-5">
+      <li class="text-secondary">September
+        <span id="red" class="text-white ms-3">Sold out</span>
+        <hr>
+      </li>
+      <li class="text-secondary">October
+        <span id="red" class="text-white ms-4">Sold out</span>
+        <hr>
+      </li>
+      <li class="row">
+        <div class="col-6">
+            <span class="text-secondary">November</span>
+        </div>
+        <div class="col-6 text-end">
+            <span id="black-4" class="text-white me-4">3</span>
+        </div>
+        <hr class="w-100">
+    </li>
+    </ul>
+   </div>
+
+   <div class="container mt-5">
+    <div id="cards-1" class="row">
+      <div id="colo-1" class="col-4">
+        <div id="image-hover" class="card">
+          <img src="images/newyork.jpg" alt="">
+          <div class="card-body">
+            <h4>New York</h4>
+            <span class="text-secondary">Fri 27 Nov 2016</span>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <div class="btn btn-dark text-white">Buy Tickets</div>
+          </div>
+        </div>
+      </div>
+      <div id="colo-2" class="col-4">
+        <div class="card">
+          <img src="images/paris.jpg" alt="">
+          <div class="card-body">
+            <h4>Paris</h4>
+            <span class="text-secondary">Sat 28 Nov 2016</span>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <div class="btn btn-dark text-white">Buy Tickets</div>
+          </div>
+        </div>
+      </div>
+      <div id="colo-3" class="col-4">
+        <div class="card">
+          <img src="images/sanfran.jpg" alt="">
+          <div class="card-body">
+            <h4>New York</h4>
+            <span class="text-secondary">Sun 29 Nov 2016</span>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <div class="btn btn-dark text-white">Buy Tickets</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div id="white-container" class="conatiner text-center">
+    <h3 class="fs-1">CONTACT</h3>
+    <span class="fs-5 text-secondary">Fan? Drop a note!</span>
+
+    <div class="row mt-5">
+      <div class="col-6" id="left-side">
+        <h4 class="text-dark"> Chicago, US</h4>
+        <h4 class="text-dark"> Phone: +00 151515</h4>
+        <h4 class="text-dark"> Email: mail@mail.com</h4>
+      </div>
+      <div class="col-6 " id="right-side">
+        <form action="">
+          <input type="text" id="Name" name="Name" placeholder="Name">
+          <input type="Email" name="Email"  id="Emaiil" placeholder="Email">
+          <textarea name="Message" id="Message" placeholder="Message" ></textarea>
+        </form>
+        <div id="button-black" class="btn btn-dark text-white w-25">SEND</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="image-3" class="container-fluid img-fluid img-thumbnail">
+    <img src="images/map (1).jpg" alt="">
+  </div>
+
+  <div class="footer">
+    <p id="foot" class="text-secondary text-center pt-4">Powered by <a class="text-primary text-center pt-4" href="#https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_band&stacked=h">w3.css</a>. </p>
+  </div>
+
+ 
+
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+ </script>
+</body>
+</html>
