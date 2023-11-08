@@ -1,0 +1,126 @@
+#Image-1{
+  background-image: url('Images/developer.png');
+  background-attachment: fixed;
+  background-size: cover;
+  height: 700px;
+}
+.padding-1 {
+  padding-top: 10%;
+  padding-left: 17%;
+}
+.span-1{
+  font-size: 28px;
+}
+.H2{
+  font-size: 50px;
+}
+#Fluid{
+  background-color: #161619;
+  height: 135px;
+  padding-top: 2%;
+}
+.span-2 {
+  font-size: 72px;
+}
+#Cards{
+  margin-top: 10%;
+}
+#marg{
+  margin-top:4%;
+}
+#col-2{
+  padding-top: 2%;
+  background-color: #722300;
+  color: white;
+}
+#col-1{
+  padding-top: 2%;
+  background-color: #515603;
+  color: white;
+}
+#footer{
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+@media (max-width:1440px) {
+  #PA-2,#PA-4{
+    display: none;
+  }
+  #Section-00{
+    display: none;
+  }
+  #SECTION_000{
+    display: none;
+  }
+}
+@media (max-width:1024px) {
+ #WEB{
+  font-size: 28px;
+  padding-bottom: 9%;
+ }
+ #APP{
+  font-size: 28px;
+ }
+ #APP-1{
+  font-size: 16px;
+ }
+ #UI{
+  padding-bottom: 1%;
+ }
+ #UI-1{
+  padding-bottom: 7%;
+ }
+}
+@media (max-width:768px) {
+  #SECTION_3{
+    display: none;
+  }
+  #Section-00{
+    display: block;
+    margin-top: 6%;
+  }
+  #ROW_1{
+    margin-top: 3%;
+  }
+  #prat-1{
+    padding-bottom: 8%;
+  }
+}
+@media (max-width:425px) {
+  #TEXT{
+    padding-top: 18%;
+  }
+  .H2{
+    font-size: 30px;
+  }
+  #Image-1{
+    width: 101%;
+  }
+}
+@media (max-width:425px) {
+  #ASEC{
+    display: none;
+  }
+  #PA-2,#PA-4{
+    margin-top: 5%;
+    display: block;
+  }
+  #SECTION_000{
+    display: block;
+    margin-top: 5%;
+  }
+  #Section-00{
+    display: none;
+  }
+  #PA-2{
+    background-color: #722300;
+    color: white;
+  }
+  #PA-4{
+    background-color: #515603;
+    color: white;
+  }
+  .upper {
+    font-size: 20px;
+  }
+}
